@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- 합쳐지고 최소화된 최신 CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+<!-- 부가적인 테마 -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+<!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+	<div class="container">
+			<ul class="nav nav-tabs">
+  <li role="presentation" ><a href="멋사1주차과제.html">자기소개</a></li>
+  <li role="presentation" ><a href="diary.html">일기장</a></li>
+  <li role="presentation" class="active"><a href="diary.html">일기장</a></li>
+  <li role="presentation"><a href="goal.html">목표</a></li>
+</ul>
+	<form action="diary">
+    <h2>나의 일기장</h2>
+				<label for ="diarytitle">제목: </label>
+				<input type="text" id="diarytitl" name="diarytitle" placeholder="일기 제목을 쓰세요">
+				<br>
+				<label for ="myfeeling">나의 기분: </label>
+				<select name="myfeeling" id="myfeeling">
+					<option value="good">좋은 날</option>
+					<option value="irritated">짜증나는 날</option>
+					<option value="excited">즐거운 날</option>
+					<option value="lazy">만사가 귀찮은날</option>
+				</select>
+				<br>
+				<textarea name="today_record" id="today_record" cols="50" rows="16" placeholder="오늘의 일기"></textarea>
+			</form>
+</body>
+</html>
